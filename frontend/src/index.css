@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #271622;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    background: linear-gradient(#1F1F1F,#1C0A1F) ;
+    color: #EBEBEB;
+    font-family: 'corp_de_texte' ;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h1{
+    font-size:2.5vw;    
+}
+
+h2{
+    font-size:2vw;
+}
+
+h3 {
+    font-size:1.5vw;
+}
+
+h4 {
+    font-size:1.25vw;
+}
+
+p{
+    font-size:1vw;
+}
+
+a{
+    font-size:1vw;
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    font-size:1vw;
+}
+
+input{
+    font-size:1vw;
+    border: none;
+    background: none;
+    color: white;
+}
+
+input[type=submit]{
+    font-size:1vw;
+}
+
+input[type=checkbox]{
+    font-size:1vw;
+}
+
+label{
+    font-size:1vw ;
+}
+
+input::placeholder{
+    font-size:1vw;
+    cursor: pointer;
+}
+
+button{
+    font-size:1vw;
+    background: transparent;
+    border: none;
+}
+
+i{
+    font-size:2vw;
+}
+
+u{
+    font-size:1vw;
+}
+
+td{
+    font-size:1vw;
+}
+
+th{
+    font-size:1.25vw;
+}
+
+textarea::placeholder {
+    font-size:1vw;
+}
+
+textarea{      
+    font-size:1vw;
+}
+
+select{
+    font-size:1vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+small{
+    font-size:0.75vw;
+}
+
+@media (max-width:1440px) {
+    h1{
+        font-size:2.75vw;    
+    }
+    h2{
+        font-size:2.25vw;
+    }
+    
+    h3 {
+        font-size:1.75vw;
+    
+    }
+    
+    h4 {
+        font-size:1.5vw;
+    }
+    
+    p{
+        font-size:1.25vw;
+    }
+    a{
+        font-size:1.25vw;
+    }
+    li{
+        font-size:1.25vw;
+    }
+    
+    input{
+        font-size:1.25vw;
+    }
+
+    input[type=submit]{
+        font-size:1.25vw;
+    }
+
+    input[type=checkbox]{
+        font-size:1.25vw;
+    }
+
+    label{
+        font-size:1.25vw;
+    }
+    
+    input::placeholder{
+        font-size:1.25vw;
+    }
+    
+    button{
+        font-size:1.25vw;
+    }
+
+    i{
+        font-size:2.75vw;
+    }
+
+    u{
+        font-size:1.25vw;
+    }
+    
+    td{
+        font-size:1.25vw;
+    }
+    
+    th{
+        font-size:1.5vw;
+    }
+    
+    textarea::placeholder {
+        font-size:1.25vw;
+    }
+    
+    textarea{
+        font-size:1.25vw;
+    }
+    
+    select{
+        font-size:1.25vw;
+    }
+    
+    small{
+        font-size:1vw;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    #__next{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 92.5vh;
+    }
+
+    
+
+    h1{
+        font-size:3vw;    
+    }
+    h2{
+        font-size:2.5vw;
+    }
+    
+    h3 {
+        font-size:2vw;
+    
+    }
+    
+    h4 {
+        font-size:1.75vw;
+    }
+    
+    p{
+        font-size:1.5vw;
+    }
+    a{
+        font-size:1.5vw;
+    }
+    li{
+        font-size:1.5vw;
+    }
+    
+    input{
+        font-size:1.5vw;
+    }
+
+    input[type=submit]{
+        font-size:1.5vw;
+    }
+
+    input[type=checkbox]{
+        font-size:1.5vw;
+    }
+
+    label{
+        font-size:1.5vw;
+    }
+    
+    input::placeholder{
+        font-size:1.5vw;
+    }
+    
+    button{
+        font-size:1.5vw;
+    }
+
+    i{
+        font-size:3vw;
+    }
+
+    u{
+        font-size:1.5vw;
+    }
+    td{
+        font-size:1.5vw;
+    }
+
+    th{
+        font-size:1.75vw;
+    }
+    
+    textarea::placeholder {
+        font-size:1.5vw;
+    }
+    
+    textarea{
+        font-size:1.5vw;
+    }
+    
+    select{
+        font-size:1.5vw;
+    }
+    small{
+        font-size:1.25vw;
+    }  
+
+}
+
+@media (max-width:800px) {
+    h1{
+        font-size:3.25vw;    
+    }
+    h2{
+        font-size:2.75vw;
+    }
+    
+    h3 {
+        font-size:2.25vw;
+    
+    }
+    
+    h4 {
+        font-size:2vw;
+    }
+    
+    p{
+        font-size:1.75vw;
+    }
+    a{
+        font-size:1.75vw;
+    }li{
+        font-size:1.75vw;
+    }
+    
+    input{
+        font-size:1.75vw;
+    }
+    
+    input[type=submit]{
+        font-size:1.75vw;
+    }
+
+    input[type=checkbox]{
+        font-size:1.75vw;
+    }
+    
+    label{
+        font-size:1.75vw;
+    }
+    
+    input::placeholder{
+        font-size:1.75vw;
+    }
+    
+    button{
+        font-size:1.5vw;
+    }
+
+    i{
+        font-size:3.25vw;
+    }
+
+    u{
+        font-size:1.75vw;
+    }
+    
+    td{
+        font-size:1.75vw;
+    }
+    
+    th{
+        font-size:2vw;
+    }
+    
+    textarea::placeholder {
+              font-size:1.75vw;
+    }
+    
+    textarea{
+        font-size:1.75vw;
+    }
+    
+    select{
+        font-size:1.75vw;
+    }
+
+    small{
+        font-size:1.5vw;
+    }
+
+}   
+
+
+
+@media (max-width:600px) {
+    h1{
+        font-size:4.5vw;    
+    }
+    h2{
+        font-size:4vw;
+    }
+    
+    h3 {
+        font-size:3.5vw;
+    
+    }
+    
+    h4 {
+        font-size:3.25vw;
+    }
+    
+    p{
+        font-size:3vw;
+    }
+    a{
+        font-size:3vw;
+    }li{
+        font-size:3vw;
+    }
+    
+    input{
+        font-size:3vw;
+    }
+
+    input[type=submit]{
+        font-size:3vw;
+    }
+
+    input[type=checkbox]{
+        font-size:3vw;
+    }
+
+    label{
+        font-size:3vw;
+    }
+    
+    input::placeholder{
+        font-size:3vw;
+    }
+    
+    button{
+        font-size:3vw;
+    }
+
+    i{
+        font-size:4.5vw;
+    }
+
+    u{
+        font-size:3vw;
+    }
+    
+    td{
+        font-size:3vw;
+    }
+    
+    th{
+        font-size:3.25vw;
+    }
+    
+    textarea::placeholder {
+        font-size:3vw;
+    }
+    
+    textarea{
+        font-size:3vw;
+    }
+    
+    select{
+        font-size:3vw;
+    }
+    
+    small{
+        font-size:2.5vw;
+    }
+
+}

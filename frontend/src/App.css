@@ -1,0 +1,27 @@
+.isLoggedIn{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 2.5vw;
+    margin: 2.5vh 2.5vw;
+}
+
+.Content{
+    overflow: auto;
+    padding: 10px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:800px) {
+    .isLoggedIn{
+        display: flex;
+        grid-template-columns: auto 1fr;
+        grid-gap: 2.5vw;
+        margin: 2.5vh 2.5vw;
+        height: 95vh;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,62 @@
+.Game{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.GameButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 75%;
+    justify-items: center;
+}
+
+.GameButton button{
+    width: 100%;
+}
+
+.Game img{
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 25%);
+}
+
+.GameOver{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.GameOverCotent{
+    background-color: rgba(114 , 41 , 122 , 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    gap: 20px;
+    height: fit-content;
+    display: flex;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 25%);
+    flex-direction: column;
+    align-items: center;
+}
+
+.GameOverCotent img{
+    width: 75%;
+    height: 75%;
+}
+
+.GameOverCotent h2{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+}

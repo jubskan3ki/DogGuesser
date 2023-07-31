@@ -1,0 +1,48 @@
+.Navbar{
+    background-color: rgba(114 , 41 , 122 , 0.25);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 95vh;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25)
+}
+
+.Navbar div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.Navbar svg{
+    height: initial;
+    width: 30px;
+}
+
+.Navbar a{
+    padding: 10px;
+}
+.selected{
+    background-color: white;
+    color: #72287B;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width:800px) {
+    .Navbar{
+        flex-direction: row !important;
+        height: initial !important;
+    }
+    .Navbar div{
+        flex-direction: row !important;
+    }
+    .Navbar svg{
+        height: 30px !important;
+        width: initial !important;
+    }
+}

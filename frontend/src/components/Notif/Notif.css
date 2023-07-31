@@ -1,0 +1,30 @@
+.Notif {
+    display: flex;
+    gap: 15px;
+    position: fixed;
+    bottom: 2.5vh;
+    left: 2.5vw;
+    background-color: #262626;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 4;
+    transition: all 0.25s ease-in-out;
+    max-width: 0;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.success{
+    padding: 10px 20px;
+    border: #26CD9A 2px solid;
+    max-width: initial !important;
+}
+
+.error{
+    padding: 10px 20px;
+    border: #782D2D 2px solid;
+    max-width: initial !important;
+}
+
+
