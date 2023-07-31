@@ -66,4 +66,13 @@
     .Game img{
         width: 100% !important;
     }
+    .GameButton{
+        width: 100% !important; 
+    }
+    .Game{
+        height: 80vh !important;
+    }
+    .GameOver{
+        height: 80vh !important;
+    }
 }
