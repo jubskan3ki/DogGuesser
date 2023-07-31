@@ -39,7 +39,7 @@
     height: 100%;
     display: flex;
     gap: 10px;
-    background-color: #72287B;
+    background-color: rgba(114 , 41 , 122 , 0.25);
     flex-direction: column;
     justify-content: space-around;
 }
