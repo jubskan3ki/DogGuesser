@@ -31,3 +31,8 @@
     height: 40vh;
     min-width: 300px;
 }
+
+.auth-container input,
+.auth-container button{
+    width: 100%;
+}

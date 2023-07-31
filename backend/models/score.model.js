@@ -12,7 +12,7 @@ const ScoreSchema = new mongoose.Schema({
     },
     mode: {
         type: String,
-        enum: ['normal', 'run', 'chrono'],
+        enum: ['normal', 'runner', 'chrono'],
         default: 'normal'
     },
     date: {

@@ -52,22 +52,20 @@ const Ranking: React.FC = () => {
                     <h4>Score</h4>
                 </div>
                 {scores.map((score, index) => (
-                    <>
-                        <div className="GridRankingItem" key={index}>
-                            <p>
-                                {index + 1}
-                            </p>
-                            <p>
-                                {score.username}
-                            </p>
-                            <p>
-                                {score.score}
-                            </p>
-                            <p>
-                                {score.date}
-                            </p>
-                        </div>
-                    </>
+                    <div className="GridRankingItem" key={index}>
+                        <p>
+                            {index + 1}
+                        </p>
+                        <p>
+                            {score.username}
+                        </p>
+                        <p>
+                            {score.score}
+                        </p>
+                        <p>
+                            {score.date}
+                        </p>
+                    </div>
                 ))}
             </div>
         </div>

@@ -58,8 +58,8 @@ const ScoreHistory: React.FC = () => {
                     <h4>Date</h4>
                     <h4>Score</h4>
                 </div>
-                {
-                    scores.filter(score => {
+                {scores
+                    .filter(score => {
                         if (selectedMode !== 'tout' && score.mode !== selectedMode) {
                             return false;
                         }
@@ -69,21 +69,14 @@ const ScoreHistory: React.FC = () => {
                         }
 
                         return true;
-                    }).map((score,index ) => (
-                    <>
+                    })
+                    .map((score, index) => (
                         <div className="GridScoreItem" key={index}>
-                            <p>
-                                {score.mode}
-                            </p>
-                            <p>
-                                {score.date}
-                            </p>
-                            <p>
-                                {score.score}
-                            </p>
+                            <p key={`mode-${index}`}>{score.mode}</p>
+                            <p key={`date-${index}`}>{score.date}</p>
+                            <p key={`score-${index}`}>{score.score}</p>
                         </div>
-                    </>
-                ))}
+                    ))}
             </div>
         </div>
     );
