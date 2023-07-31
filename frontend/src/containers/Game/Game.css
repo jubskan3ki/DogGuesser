@@ -60,3 +60,10 @@
     text-align: center;
     border-bottom: 1px solid white;
 }
+
+
+@media (max-width:800px) {
+    .Game img{
+        width: 100% !important;
+    }
+}
