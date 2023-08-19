@@ -1,5 +1,4 @@
 const Score = require('../models/score.model');
-const User = require('../models/user.model'); 
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 

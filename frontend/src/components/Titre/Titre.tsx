@@ -6,7 +6,6 @@ interface TitreProps {
 
 const Titre: React.FC<TitreProps> = ({ title}) => {
 
-
     return (
         <div className="Titre" >
             <h2>{title}</h2>
